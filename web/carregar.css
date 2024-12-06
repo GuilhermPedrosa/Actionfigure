@@ -1,0 +1,79 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border: 2px solid #5abaff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Estilo para os parágrafos que contêm os campos */
+form p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para os labels */
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilo para os inputs */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Torna o campo de ID somente leitura estilizado */
+form input[readonly] {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Estilo para o botão de envio */
+form input[type="submit"] {
+    background-color: #5abaff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito hover para o botão */
+form input[type="submit"]:hover {
+    background-color: #469ed4;
+    transform: scale(1.05);
+}
+
+/* Estilo para mensagens de erro */
+p[style*="color: red"] {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

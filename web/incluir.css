@@ -1,0 +1,62 @@
+/* Estilo do formulário */
+form {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #5abaff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form input:focus {
+    border-color: #5abaff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(90, 186, 255, 0.5);
+}
+
+/* Botões */
+form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form .btnSalvar {
+    background-color: #5abaff;
+}
+
+form .btnSalvar:hover {
+    background-color: #0078d7;
+}
+
+form .btnCancelar {
+    background-color: #555;
+    margin-left: 10px;
+}
+
+form .btnCancelar:hover {
+    background-color: #333;
+}
